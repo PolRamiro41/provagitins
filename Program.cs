@@ -14,7 +14,7 @@ namespace JOCS
             do
             {
                 Console.WriteLine("MENU");
-
+                Console.WriteLine("[1]  Buscamines");
                 opcio = int.Parse(Console.ReadLine());
             }
             while (opcio != 0);
