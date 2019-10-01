@@ -10,12 +10,12 @@ namespace JOCS
     {
         static void Main(string[] args)
         {
-            int opcio =0;
+            float opcio =0;
             do
             {
                 Console.WriteLine("MENU");
                 Console.WriteLine("[1]  Buscamines");
-                opcio = int.Parse(Console.ReadLine());
+                opcio = float.Parse(Console.ReadLine());
             }
             while (opcio != 0);
         }
